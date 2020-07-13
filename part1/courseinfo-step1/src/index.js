@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 const Header = (props) =>{
   return(
@@ -9,21 +9,30 @@ const Header = (props) =>{
   )
 }
 
-const Content = (props) =>{
-  return(      
-      <div>
-          <p>{props.part1} {props.exercises1}</p>
-          <p>{props.part2} {props.exercises2}</p>
-          <p>{props.part3} {props.exercises3}</p>
-      </div>      
+const Part = (props) => {
+  const {part} = props
+  return(
+    <div>{part.name} {part.exercises}</div>
   )
 }
 
-const Total = (props) =>{
+const Content = (props) =>{
+  const {part1, part2, part3, exercises1, exercises2, exercises3} = props
+  console.log('value of Content props', props)
   return(
-      <div>
-          <p>yhteensä {props.exercises1 + props.exercises2 + props.exercises3} tehtävää</p>
-      </div>
+    <div>          
+      <p>{part1} {exercises1}</p>
+      <p>{part2} {exercises2}</p>
+      <p>{part3} {exercises3}</p>       
+    </div>
+  )     
+}
+
+const Total = ({exercises1, exercises2, exercises3}) =>{
+  return(
+    <div>
+      <p><b>Total of {exercises1 + exercises2 + exercises3} exercises</b></p>
+    </div>
   )
 }
 
@@ -45,4 +54,4 @@ const App = () => {
   )
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'))
