@@ -49,6 +49,12 @@ const App = () => {
               setNewName('')
               setNewNumber('')
             })
+            .catch(error => {
+              alert(
+                `the person '${personName}' was already deleted from server`
+              )
+              setPersons(persons.filter(person => person.personName !== personName))
+            })
       }  
 
     else if(persons.find(person => person.name.toLowerCase() === newName.toLowerCase())){
