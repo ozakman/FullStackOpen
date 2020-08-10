@@ -29,7 +29,7 @@ let = persons = [
     response.send('<h1>Hello World!</h1>')
   })
 
-  app.get('/persons', (request, response) => {
+  app.get('/api/persons', (request, response) => {
     console.log(persons)
     response.json(persons)
   })
