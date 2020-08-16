@@ -12,7 +12,7 @@ const filteredName = persons.filter(person => person.name.toLowerCase().includes
   }
   return filteredName.map(person => (
       <div key={person.name}>{person.name} {person.number}{' '}
-        <button value={person.name} onClick={() => removePerson(person)}>
+        <button className="button" value={person.name} onClick={() => removePerson(person)}>
           {' '}delete{' '}
         </button>
       </div>

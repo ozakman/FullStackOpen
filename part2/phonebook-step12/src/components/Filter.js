@@ -7,7 +7,7 @@ const Filter = ({ filterName, setFilterName }) => {
   }
 
   return (
-    <div>
+    <div className="form">
       filter shown with <input value={filterName} onChange={filterPersons} />
     </div>
   )
