@@ -1,0 +1,10 @@
+PUT http://localhost:3001/api/blogs/62650bd93fa478970940bbd1
+Content-Type: application/json
+
+{
+    "title": "Aalto yliopiston wappujuhlat",
+    "author": "Liisa Marttinen",
+    "url": "https://www.aalto.fi/fi/tietotekniikan-laitos",
+    "likes": 5,
+    "id": "62650bd93fa478970940bbd1"
+}
