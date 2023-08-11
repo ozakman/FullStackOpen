@@ -1,0 +1,13 @@
+USERS TEST DATA
+
+
+blogs	[]
+username: "mluukkai"
+name:	"Matti Luukkainen"
+id:	"6302a443fe6a2d1d5479e713"
+
+
+blogs	[]
+username: "hellas"
+name:	"Arto Hellas"
+id:	"63095929fbfca91118284a7a"
