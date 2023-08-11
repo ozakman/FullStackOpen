@@ -1,9 +1,0 @@
-POST http://localhost:3001/api/blogs
-Content-Type: application/json
-
-{
-  "title": "Aalto yliopiston Vappujuhlat",
-  "author": "Liisa Marttinen", 
-  "url": "https://www.aalto.fi/fi/tietotekniikan-laitos",
-  "likes": 5
-}
