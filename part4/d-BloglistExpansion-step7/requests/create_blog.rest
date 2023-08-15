@@ -1,0 +1,10 @@
+post http://localhost:3001/api/blogs
+Content-Type: application/json
+
+{
+  "title": "Microservices and the First Law of Distributed Objects",
+  "author": "Martin Fowler",
+  "url": "https://martinfowler.com/articles/distributed-objects-microservices.html",
+  "likes": 0,
+  "userId": "63095929fbfca91118284a7a"
+}
