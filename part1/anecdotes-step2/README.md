@@ -22,6 +22,7 @@ Cleaner syntax for defining object literals, Promises and errors
 Improved error message
 Inline styles
 
+return
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
