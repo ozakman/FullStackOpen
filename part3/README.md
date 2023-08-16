@@ -1,7 +1,7 @@
 # Part 3 Content
 
 #### Summary: Backend, implementing functionality on the server side of the stack. 
-implementing a simple REST API in Node.js by using the Express library, and storing the application's data in a MongoDB database. Deploying the application to the internet.
+Implementing a simple REST API in Node.js by using the Express library, and storing the application's data in a MongoDB database. Deploying the application to the internet.
 
 #### Topics of this chapter:
 
