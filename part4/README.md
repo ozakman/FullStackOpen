@@ -3,8 +3,8 @@
 Modern web application development with JavaScript using ReactJS that use REST APIs built with Node.js in 
 creating single page applications, including Redux, MongoDB, and GraphQL.
 
-#### Work on the backend continues. Writing unit and integration tests for the backend. Implementing user 
-authentication and authorization.
+#### Work on the backend continues. 
+Writing unit and integration tests for the backend. Implementing user authentication and authorization.
 
 #### Topics of this chapter:
 
