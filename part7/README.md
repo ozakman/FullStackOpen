@@ -20,5 +20,5 @@ Source maps, Minifying the code, Development and production configuration, Polyf
 #### d- Class components, E2E-testing:
 Class Components, End to end testing of the application, Controlling the state of the database.
 
-### e-  Miscellaneous
+#### e-  Miscellaneous
 
