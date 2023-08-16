@@ -18,8 +18,8 @@ Filtering Displayed Elements.
 The browser as a runtime environment, npm, Axios and promises, Effect-hooks, The development runtime environment.
 
 #### d- Altering data in server:
-REST, Sending Data to the Server, Changing the importance of notes, Extracting communication with the backend into a separate module
-Cleaner syntax for defining object literals, Promises and errors.
+REST, Sending Data to the Server, Changing the importance of notes, Extracting communication with the backend 
+into a separate module, Cleaner syntax for defining object literals, Promises and errors.
 
 ### e-  Adding styles to React app:
 Improved error message, Inline styles.
