@@ -21,6 +21,6 @@ The browser as a runtime environment, npm, Axios and promises, Effect-hooks, The
 REST, Sending Data to the Server, Changing the importance of notes, Extracting communication with the backend 
 into a separate module, Cleaner syntax for defining object literals, Promises and errors.
 
-### e-  Adding styles to React app:
+#### e-  Adding styles to React app:
 Improved error message, Inline styles.
 
